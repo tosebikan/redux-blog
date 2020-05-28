@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={Dashboard}/>
-        <Route exact path="/" component={PostsPage}/>
+        <Route exact path="/posts" component={PostsPage}/>
         <Redirect to="/"/>
       </Switch>
     </Router>
